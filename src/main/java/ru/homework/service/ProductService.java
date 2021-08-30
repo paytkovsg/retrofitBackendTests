@@ -1,9 +1,10 @@
-package service;
+package ru.homework.service;
 
-import dto.Product;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;
+import ru.homework.dto.Product;
+
 
 import java.util.ArrayList;
 
@@ -19,9 +20,4 @@ public interface ProductService {
 
     @DELETE("products/{id}")
     Call<ResponseBody> deleteProduct(@Path("id") Integer id);
-
-    @FormUrlEncoded
-    @PUT("products/{id}")
-    Call<Product> updateProduct(@Path("id") Integer id,
-                                @Field("title") String title);
 }

@@ -1,4 +1,4 @@
-package dto;
+package ru.homework.dto;
 
 import lombok.Data;
 
@@ -8,5 +8,5 @@ import java.util.ArrayList;
 public class Category {
     Integer id;
     String title;
-    ArrayList<dto.Product> products;
+    ArrayList<ru.homework.dto.Product> products;
 }
