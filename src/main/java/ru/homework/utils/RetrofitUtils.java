@@ -1,4 +1,4 @@
-package utils;
+package ru.homework.utils;
 
 import lombok.experimental.UtilityClass;
 import okhttp3.OkHttpClient;

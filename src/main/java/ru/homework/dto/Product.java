@@ -1,4 +1,4 @@
-package dto;
+package ru.homework.dto;
 
 import lombok.*;
 

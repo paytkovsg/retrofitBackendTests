@@ -1,4 +1,4 @@
-package enums;
+package ru.homework.enums;
 
 import lombok.Getter;
 
